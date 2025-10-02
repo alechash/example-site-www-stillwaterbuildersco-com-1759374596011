@@ -1,0 +1,37 @@
+<header id="site-header" class="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow transition-all duration-300">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-4 lg:py-6 transition-all duration-300" id="header-inner">
+    <div class="flex items-center space-x-4">
+      <a href="/" class="flex items-center group focus:outline-none" aria-label="Stillwater Builders Home">
+        <img src="https://placehold.co/48x48?text=%C3%97" alt="Stillwater Builders logo placeholder" class="w-12 h-12 rounded-full bg-gray-200 dark:bg-gray-700 mr-3"/>
+        <span class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white group-hover:text-blue-900" style="letter-spacing:0.02em;">Stillwater Builders</span>
+      </a>
+    </div>
+    <nav aria-label="Main navigation" class="hidden md:flex items-center space-x-6 text-base font-medium">
+      <a href="/" class="text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Home</a>
+      <a href="/about/" class="text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">About</a>
+      <a href="/products/" class="text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Menu</a>
+      <a href="/locations/" class="text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Locations</a>
+      <a href="/contact/" class="text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Contact</a>
+      <a href="/#faq" class="text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">FAQ</a>
+    </nav>
+    <div class="flex items-center space-x-3">
+      <button id="dark-toggle" aria-label="Toggle dark mode" class="text-gray-700 dark:text-gray-200 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded p-2 transition">
+        <i class="fas fa-moon hidden dark:inline"></i>
+        <i class="fas fa-sun dark:hidden"></i>
+      </button>
+      <span class="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-900 text-white tracking-wide select-none" style="letter-spacing:0.05em;">EXAMPLE</span>
+      <button id="mobile-nav-toggle" class="md:hidden ml-2 text-gray-700 dark:text-gray-200 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded p-2 transition" aria-label="Open navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="md:hidden fixed inset-0 bg-white dark:bg-gray-900 bg-opacity-95 dark:bg-opacity-95 z-50 flex flex-col items-center justify-center space-y-8 text-lg font-medium transform scale-95 opacity-0 pointer-events-none transition-all duration-200">
+    <button id="mobile-nav-close" class="absolute top-4 right-4 text-gray-700 dark:text-gray-200 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded p-2" aria-label="Close navigation"><i class="fas fa-times"></i></button>
+    <a href="/" class="block text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Home</a>
+    <a href="/about/" class="block text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">About</a>
+    <a href="/products/" class="block text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Menu</a>
+    <a href="/locations/" class="block text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Locations</a>
+    <a href="/contact/" class="block text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">Contact</a>
+    <a href="/#faq" class="block text-gray-800 dark:text-gray-100 hover:text-blue-900 dark:hover:text-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition">FAQ</a>
+  </nav>
+</header>
